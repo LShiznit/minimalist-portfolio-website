@@ -1,4 +1,6 @@
 # Redirects from what the browser requests to what we serve
 
-/Home /
-/* /:splat
+/pages/Home /
+/pages/PortfolioIndex /PortfolioIndex 
+/pages/PortfolioDetail /PortfolioDetail 
+/pages/Contact /Contact
