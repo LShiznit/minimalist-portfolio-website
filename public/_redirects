@@ -1,6 +1,8 @@
 # Redirects from what the browser requests to what we serve
 
-/pages/Home /
-/pages/PortfolioIndex /PortfolioIndex 
-/pages/PortfolioDetail /PortfolioDetail 
-/pages/Contact /Contact
+#/pages/Home /
+#/pages/PortfolioIndex /PortfolioIndex 
+#/pages/PortfolioDetail /PortfolioDetail 
+#/pages/Contact /Contact
+
+/* /index.html 200
