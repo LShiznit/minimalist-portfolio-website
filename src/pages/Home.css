@@ -1,0 +1,45 @@
+main#home section.hero {
+   position: relative;
+ 
+ }
+ 
+ main#home section.hero > img {
+   width: 100%;
+   z-index: -1;
+ }
+ 
+ main#home section.hero > div {
+   position: absolute;
+   /* bottom: 4px; */
+   bottom: 0;
+   background-color: #fafafa;
+   width: 40%;
+   max-height: 350px;
+   padding-right: 3rem ;
+   display: block;
+ }
+ 
+ main#home section.hero > div h1 {
+   padding: 2rem 0;
+ }
+ 
+ main#home section#aboutme {
+   display: flex;
+   justify-content: space-between;
+   width: 90%;
+   padding: 8rem 0;
+ }
+ 
+ main#home section#aboutme > img {
+   width: 50%;
+ }
+ 
+ main#home section#aboutme > div {
+   border-top: 1px solid #cecdfb;
+   border-bottom: 1px solid #cecdfb;
+   width: 35%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   padding: 1rem 0;
+ }

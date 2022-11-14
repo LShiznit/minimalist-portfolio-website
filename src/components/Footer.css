@@ -1,0 +1,35 @@
+footer {
+   width: 100vw;
+   padding: 1rem 0;
+   display: flex;
+   justify-content: center;
+   background-color: #33323d;
+}
+
+footer nav {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+footer nav a {
+   color: #fafafa;
+}
+
+footer nav ul {
+   display: flex;
+   align-items: center;
+}
+
+footer nav ul:nth-child(3) {
+   margin-left: auto;
+}
+footer nav ul:nth-child(3) li {
+   padding-left: 1rem;
+}
+footer nav ul:nth-child(2) li {
+   padding-left: 2.5rem;
+}
+footer nav ul:nth-child(3) li a:active, footer nav ul:nth-child(3) li a:hover {
+   filter: invert(62%) sepia(40%) saturate(413%) hue-rotate(117deg) brightness(180%) contrast(83%);
+}

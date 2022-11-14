@@ -1,0 +1,34 @@
+main#portfolioIndex section {
+   display: flex;
+   justify-content: space-between;
+   padding: 2.5rem 0;
+   width: 90%;
+ }
+ 
+ main#portfolioIndex section > img {
+   width: 50%;
+ }
+ 
+ main#portfolioIndex section > div {
+   border-top: 1px solid #cecdfb;
+   border-bottom: 1px solid #cecdfb;
+   width: 35%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   padding: 1rem 0;
+ }
+ 
+ main#portfolioIndex section:first-child {
+   padding-top: 1rem;
+ }
+ 
+ main#portfolioIndex section:nth-child(4) {
+   padding-bottom: 6rem;
+ }
+ 
+ main#portfolioIndex section:nth-child(2n) {
+   flex-direction: row-reverse;
+   margin-left: auto;
+ }
+ 

@@ -1,0 +1,13 @@
+#navbar {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 3rem 0;
+}
+
+#navbar ul {
+   display: flex;
+}
+#navbar ul li {
+   padding-left: 2rem;
+}

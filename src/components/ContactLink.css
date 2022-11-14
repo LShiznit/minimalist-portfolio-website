@@ -1,0 +1,16 @@
+div#contactLink {
+   display: flex;
+   padding-bottom: 8rem;
+   justify-content: space-between;
+   align-items: center;
+ }
+ 
+ div#contactLink > h2 {
+   width: 30%;
+ }
+ 
+ div#contactLink > div {
+   width: 45%;
+   border-bottom: 1px solid #cecdfb;
+ }
+ 
