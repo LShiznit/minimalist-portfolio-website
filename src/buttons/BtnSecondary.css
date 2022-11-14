@@ -1,28 +1,27 @@
 button.btn-secondary {
-   height: 48px;
-   width: fit-content;
-   min-width: 162px;
-   padding: 0 2rem;
+  height: 48px;
+  width: fit-content;
+  min-width: 162px;
+  padding: 0 2rem;
 
-   border: 1px solid  #000;
-   background-color: #fff;
+  border: 1px solid #000;
+  background-color: #fff;
 
-   display: flex;
-   align-items: center;
-   justify-content: center;
-
-   text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  user-select: none;
 }
 
-button.btn-secondary:hover  {
-   color: #fafafa;
-   background-color: #33323d;
-   border-style: none;
-   cursor: pointer;
+button.btn-secondary:hover {
+  color: #fafafa;
+  background-color: #33323d;
+  border-style: none;
+  cursor: pointer;
 }
 
-
-button.btn-secondary:disabled  {
-   border: 1px solid  #b7b7b7;
-   background-color: #fafafa;
+button.btn-secondary:disabled {
+  border: 1px solid #b7b7b7;
+  background-color: #fafafa;
 }

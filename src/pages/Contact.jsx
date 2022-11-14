@@ -169,7 +169,7 @@ export default function Contact() {
             innerText={"Send Message"}
             type="submit"
             onSub={onSubmit}
-            disableImg={false}
+            disableImg={true}
           />
         </form>
       </section>

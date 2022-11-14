@@ -8,6 +8,7 @@ button.btn-primary {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  user-select: none;
 }
 
 button.btn-primary:not(.btn-arrows) div {
@@ -35,13 +36,16 @@ img {
   width: 16px;
 }
 
-button.btn-primary:hover :nth-child(2) {
-  background-color: #5fb4a2;
+button.btn-primary:hover {
+  background-color: #56a292;
+  cursor: pointer;
 }
-
 button.btn-primary:hover div {
   background-color: #56a292;
   cursor: pointer;
+}
+button.btn-primary:hover div:nth-child(2) {
+  background-color: #5fb4a2;
 }
 
 button.btn-primary:hover img {

@@ -12,7 +12,7 @@ export default function BtnPrimary({
     <>
       <HashLink to={hashLocation}>
         <button onClick={onSub} className="btn-primary">
-          {disableImg == false && (
+          {disableImg === false && (
             <div className="btn-arrows" id="btn-arrows">
               <img src={downArrows} alt="btn-arrows" />
             </div>
