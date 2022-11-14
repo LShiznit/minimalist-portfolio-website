@@ -1,6 +1,6 @@
 # Redirects from what the browser requests to what we serve
 
-/Home.jsx /
-/PortfolioIndex.jsx /PortfolioIndex
-/PortfolioDetail.jsx /PortfolioDetail
-/Contact.jsx /Contact
+/Home /
+/PortfolioIndex /PortfolioIndex
+/PortfolioDetail /PortfolioDetail
+/Contact /Contact
